@@ -15,3 +15,18 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
+a {
+	color: #555;
+}
+
+a:hover {
+	color: #EE0000;
+}
+
+.footer-widget {
+    width: 325px;
+}
+
+.footer-widget p {
+	font-size: 12px;
+}
