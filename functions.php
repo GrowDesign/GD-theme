@@ -11,18 +11,18 @@ function enqueue_child_theme_styles() {
     wp_enqueue_style( 'child-style', get_stylesheet_uri(), array('parent-style')  );
 }
 
-// et_pb_index_blog_image_width
+// et_pb_portfolio_single_image_width
 
-add_filter('et_pb_index_blog_image_width', 'gd_img_width_filter',10);
+add_filter('et_pb_portfolio_single_image_width', 'gd_img_width_filter',10, 1);
 
-function gd_img_width_filter(){
+function gd_img_width_filter($width){
 	return 700;
 }
 
-// et_pb_index_blog_image_height
+// et_pb_portfolio_single_image_height
 
-add_filter('et_pb_index_blog_image_height', 'gd_img_height_filter',10,3);
+add_filter('et_pb_portfolio_single_image_height', 'gd_img_height_filter',10, 1);
 
-function gd_img_width_filter(){
+function gd_img_height_filter($height){
 	return 483;
 }
