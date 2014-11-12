@@ -23,10 +23,23 @@ a:hover {
 	color: #EE0000;
 }
 
+.et_pb_widget a {
+	color: #fff;
+}
+
+.et_pb_widget a:hover {
+	color: #EE0000;
+}
+
 .footer-widget {
     width: 325px;
 }
 
 .footer-widget p {
 	font-size: 12px;
+}
+
+
+body.home h1.main_title {
+	display: none;
 }
