@@ -5,7 +5,7 @@
  Author:       Bradford Knowlton
  Author URI:   http://bradknowlton.com
  Template:     Divi
- Version:      1.6.3
+ Version:      1.7.3
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  GitHub Theme URI: https://github.com/GrowDesign/GD-theme
  GitHub Branch: swlarch.com
@@ -15,13 +15,13 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
-a,
+#page-container a,
 #content-area .nav-single a {
 	color: #555555 !important;
 }
 
 
-a:hover,
+#page-container a:hover,
 #content-area .nav-single a:hover {
 	color: #EE0000 !important;
 }
