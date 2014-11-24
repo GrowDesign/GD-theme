@@ -24,5 +24,5 @@ function gd_img_width_filter($width){
 add_filter('et_pb_portfolio_single_image_height', 'gd_img_height_filter',10, 1);
 
 function gd_img_height_filter($height){
-	return 483;
+	return 9999;
 }

@@ -5,7 +5,7 @@
  Author:       Bradford Knowlton
  Author URI:   http://bradknowlton.com
  Template:     Divi
- Version:      1.2.4
+ Version:      1.5.4
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  GitHub Theme URI: https://github.com/GrowDesign/GD-theme
  GitHub Branch: swlarch.com
@@ -15,31 +15,90 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
-a {
-	color: #555;
+a,
+#content-area .nav-single a {
+	color: #555555 !important;
 }
 
-a:hover {
-	color: #EE0000;
+
+a:hover,
+#content-area .nav-single a:hover {
+	color: #EE0000 !important;
 }
 
-.et_pb_widget a {
-	color: #fff;
+#left-area {
+	padding-bottom: 40px;
 }
 
-.et_pb_widget a:hover {
-	color: #EE0000;
+
+.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2 {
+	font-size: 14px !important;
+}
+
+.et_pb_column_4_4 .et_pb_filterable_portfolio_grid .et_pb_portfolio_item, .et_pb_column_3_4 .et_pb_filterable_portfolio_grid .et_pb_portfolio_item, .et_pb_column_2_3 .et_pb_filterable_portfolio_grid .et_pb_portfolio_item, .et_pb_column_1_2 .et_pb_filterable_portfolio_grid .et_pb_portfolio_item, .et_pb_column_1_3 .et_pb_filterable_portfolio_grid .et_pb_portfolio_item, .et_pb_column_1_4 .et_pb_filterable_portfolio_grid .et_pb_portfolio_item {
+    margin: 0 0 20px;
+}
+
+.et_pb_row {
+    padding: 0px 0 0;
+}
+
+#footer-widgets,
+#footer-widgets .et_pb_widget a {
+	color: #ccc !important;
+}
+
+#footer-widgets .et_pb_widget a:hover {
+	color: #fff !important;
 }
 
 .footer-widget {
-    width: 325px;
+    width: 725px;
 }
 
-.footer-widget p {
+.textwidget,
+.footer-widget p,
+#footer-bottom {
 	font-size: 12px;
 }
 
+.footer-widget p {
+	line-height: 1.5em;
+}
 
 body.home h1.main_title {
 	display: none;
+}
+
+
+#footer-widgets {
+	padding-top: 30px;
+}
+
+.footer-widget {
+	margin: 0 60px 26px 0;
+}
+
+#footer-widgets .fwidget {
+	padding-bottom: 0px;
+}
+
+.textwidget {
+	
+}
+
+.nav ul li a:hover, .et_mobile_menu li a:hover { background: none !important; }
+
+
+#left-area ul.slides {
+padding: 0px;
+}
+
+.wooslider {
+    background: none repeat scroll 0 0 #fff;
+    border: none !important;
+    border-radius: 0px;
+    box-shadow: none !important;
+    margin: 0 0 60px;
+    position: relative;
 }
